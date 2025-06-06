@@ -31,10 +31,10 @@ You can edit `styles.css` to change:
 - **Vertical position** using `transform: translateY(...)`
 
 ## Compatibility
-	•	Works with Live Preview and Source Mode.
-	•	Compatible with most themes (Minimal, Obsidian default themes, etc.).
-	•	No external dependencies.
+- Works with Live Preview and Source Mode.
+- Compatible with most themes (Minimal, Obsidian default themes, etc.).
+- No external dependencies.
 
 ## Limitations
-	•	This is a simple Focus Cursor plugin — it does not fully replace the CodeMirror cursor engine.
-	•	In rare cases, some advanced themes that heavily style .cm-content may require slight CSS adjustments.
+- This is a simple Focus Cursor plugin — it does not fully replace the CodeMirror cursor engine.
+- In rare cases, some advanced themes that heavily style .cm-content may require slight CSS adjustments.
