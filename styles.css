@@ -1,0 +1,21 @@
+/* Hide native CodeMirror cursor elements */
+.cm-cursor,
+.cm-cursor-primary,
+.cm-cursorSecondary {
+	display: none !important;
+}
+
+/* Hide native caret */
+.cm-content {
+	caret-color: transparent !important;
+}
+
+/* Custom Focus Cursor */
+.custom-cursor {
+	display: inline-block;
+	width: 2px; /* you can customize */
+	height: 1em; /* you can customize */
+	background-color: currentColor; /* you can customize */
+	opacity: 1;
+	transform: translateY(0.15em);
+}

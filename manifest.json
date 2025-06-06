@@ -1,0 +1,10 @@
+{
+  "id": "focus-cursor",
+  "name": "Focus Cursor",
+  "version": "1.0.0",
+  "minAppVersion": "1.8.0",
+  "description": "Removes blinking from the editor cursor.",
+  "author": "Martin Flori",
+  "authorUrl": "https://github.com/martinflori",
+  "isDesktopOnly": true
+}
