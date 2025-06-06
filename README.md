@@ -1,20 +1,40 @@
 # Focus Cursor
 
-A simple plugin for Obsidian that disables the native blinking cursor and shows a clean, single, customizable cursor.
+Removes blinking from the editor cursor to help you focus while writing. Includes a customizable stable cursor.
 
 ## Features
 
-- Removes native cursor blink.
+- Removes the native cursor blink effect.
 - Adds a single custom cursor.
-- Fully customizable via `styles.css`.
+- Cursor style is fully customizable via `styles.css` (color, height, position, etc.).
+- Lightweight and unobtrusive — works well with most themes.
+
+## Why?
+
+The native cursor in Obsidian (via CodeMirror) blinks by default and can sometimes feel distracting.  
+**Focus Cursor** replaces the blinking effect with a stable, visible cursor that you can customize to your liking.
 
 ## Installation
 
-1. Download this repository and copy it into your `.obsidian/plugins/` folder.
-2. Enable the plugin in Obsidian Community Plugins.
-3. Customize `styles.css` if you want.
+1. Download or clone this repository.
+2. Copy the entire `focus-cursor` folder into your Obsidian vault under `.obsidian/plugins/`.
+3. In Obsidian, go to **Settings → Community plugins → Enable Focus Cursor**.
+4. Customize `styles.css` if you want to adjust the appearance of the cursor.
+
+## Customization
+
+You can edit `styles.css` to change:
+
+- **Width** of the cursor
+- **Height** relative to the text line
+- **Color** (default is `currentColor` to match the text color)
+- **Vertical position** using `transform: translateY(...)`
 
 ## Compatibility
+	•	Works with Live Preview and Source Mode.
+	•	Compatible with most themes (Minimal, Obsidian default themes, etc.).
+	•	No external dependencies.
 
-- Works with Live Preview and Source Mode.
-- Compatible with most themes.
+## Limitations
+	•	This is a simple Focus Cursor plugin — it does not fully replace the CodeMirror cursor engine.
+	•	In rare cases, some advanced themes that heavily style .cm-content may require slight CSS adjustments.
