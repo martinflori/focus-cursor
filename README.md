@@ -38,3 +38,29 @@ You can edit `styles.css` to change:
 ## Limitations
 - This is a simple Focus Cursor plugin — it does not fully replace the CodeMirror cursor engine.
 - In rare cases, some advanced themes that heavily style .cm-content may require slight CSS adjustments.
+
+## Roadmap
+
+### Version 1.0
+
+- Initial release
+- Removes native editor cursor blinking
+- Adds a single customizable cursor (via `styles.css`)
+
+### Planned Features
+
+- [ ] Add Focus Cursor settings in Obsidian settings menu:
+  - Cursor color (color picker)
+  - Cursor width (slider)
+  - Cursor height (slider)
+  - Vertical offset (slider)
+- [ ] Live update of cursor style when changing settings
+- [ ] Option to enable/disable the plugin per workspace or per theme
+- [ ] Improve compatibility with more complex themes
+- [ ] Add localization (EN/FR)
+
+### Ideas for future versions
+
+- Support cursor animations (fade in/out, soft blink if desired)
+- Support for Vim Mode (show Focus Cursor in insert mode only)
+- User presets for Focus Cursor styles
